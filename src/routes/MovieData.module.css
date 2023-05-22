@@ -1,0 +1,29 @@
+.title{
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    font-size: 4em;
+    color: #aa2e2e;
+    text-shadow: 3px 3px 0px #F2A063;
+}
+
+.dataContainer{
+    display: flex;
+    padding: 3em;
+}
+
+.movieImage{
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+}
+
+.movieDetails{
+    padding: 3em;
+}
+
+@media (max-width:750px) {
+    .dataContainer{
+        display: block;
+        text-align: center;
+    }
+}

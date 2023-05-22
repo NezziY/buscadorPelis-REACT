@@ -1,0 +1,13 @@
+.title{
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    font-size: 4em;
+    color: #aa2e2e;
+    text-shadow: 3px 3px 0px #F2A063;
+}
+
+a {
+    text-decoration: none;
+    color: #3f3d3d;
+    font-weight: bolder;
+}    

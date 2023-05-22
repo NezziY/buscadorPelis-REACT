@@ -1,0 +1,30 @@
+.searchInput{
+    text-align: center;
+}
+
+input{
+    height: 2em;
+    background: transparent;
+    color: #726e6e;
+    border: 2px solid #726e6e;
+}
+input:focus{
+    outline: none;
+    background: #726e6e;
+    color: #FFF4E0;
+}
+
+.moviesGrid{
+    font-family: 'Dosis', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 230px);
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+}
+
+@media (max-width:560px) {
+    .moviesGrid {
+        grid-template-columns: 100%;
+    }
+}
