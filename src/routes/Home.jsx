@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import MoviesGrid from '../components/MoviesGrid';
+import Footer from '../components/Footer';
 import styles from './Home.module.css';
 
 function Home() {  
@@ -14,6 +15,9 @@ function Home() {
       <main>
         <MoviesGrid />
       </main>
+
+      <Footer />
+     
     </div>
     
   )

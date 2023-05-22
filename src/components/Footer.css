@@ -1,0 +1,14 @@
+footer {
+    margin-top: 2em;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    margin: 0 35px 0 0;
+}
